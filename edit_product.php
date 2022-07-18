@@ -131,7 +131,7 @@
                    
                    <div class="form-group"><!-- form-group Begin -->
                        
-                      <label class="col-md-3 control-label"> Manufacturer </label> 
+                      <label class="col-md-3 control-label"> Supplier </label> 
                       
                       <div class="col-md-6"><!-- col-md-6 Begin -->
                           

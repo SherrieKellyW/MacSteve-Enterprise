@@ -13,7 +13,7 @@
         <ol class="breadcrumb"><!-- breadcrumb begin -->
             <li class="active"><!-- active begin -->
                 
-                <i class="fa fa-dashboard"></i> Dashboard / View Manufactures
+                <i class="fa fa-dashboard"></i> Dashboard / View Suppliers
                 
             </li><!-- active finish -->
         </ol><!-- breadcrumb finish -->
@@ -26,7 +26,7 @@
             <div class="panel-heading"><!-- panel-heading begin -->
                <h3 class="panel-title"><!-- panel-title begin -->
                
-                   <i class="fa fa-tags"></i>  View Manufactures
+                   <i class="fa fa-tags"></i>  View Suppliers
                 
                </h3><!-- panel-title finish --> 
             </div><!-- panel-heading finish -->
@@ -37,11 +37,11 @@
                         
                         <thead><!-- thead begin -->
                             <tr><!-- tr begin -->
-                                <th> Manufacturer ID: </th>
-                                <th> Manufacturer Title: </th>
-                                <th> Manufacturer Image: </th>
-                                <th> Manufacturer Delete: </th>
-                                <th> Manufacturer Edit: </th>
+                                <th> Supplier ID: </th>
+                                <th> Supplier Title: </th>
+                                <th> Supplier Image: </th>
+                                <th> Supplier Delete: </th>
+                                <th> Supplier Edit: </th>
                             </tr><!-- tr finish -->
                         </thead><!-- thead finish -->
                         
@@ -73,7 +73,7 @@
                                 <td> <img src="other_images/<?php echo $manufacturer_image; ?>" width="60" height="60"></td>
                                 <td> 
                                      
-                                     <a href="index.php?delete_manufacturer=<?php echo $manufacturer_id; ?>">
+                                     <a href="index.php?delete_supplier=<?php echo $manufacturer_id; ?>">
                                      
                                         <i class="fa fa-trash-o"></i> Delete
                                     
@@ -82,7 +82,7 @@
                                 </td>
                                 <td> 
                                      
-                                     <a href="index.php?edit_manufacturer=<?php echo $manufacturer_id; ?>">
+                                     <a href="index.php?edit_supplier=<?php echo $manufacturer_id; ?>">
                                      
                                         <i class="fa fa-pencil"></i> Edit
                                     

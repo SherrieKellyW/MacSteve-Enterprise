@@ -49,25 +49,7 @@
                     
                     </div><!-- form-group finish -->
                     
-                    <div class="form-group"><!-- form-group 2 begin -->
-                    
-                        <label for="" class="control-label col-md-3"><!-- control-label col-md-3 begin --> 
-                        
-                            Choose As Top Manufacturer
-                        
-                        </label><!-- control-label col-md-3 finish --> 
-                        
-                        <div class="col-md-6"><!-- col-md-6 begin -->
-                        
-                            <input name="p_cat_top" type="radio" value="yes">
-                            <label>Yes</label>
-                        
-                            <input name="p_cat_top" type="radio" value="no">
-                            <label>No</label>
-                        
-                        </div><!-- col-md-6 finish -->
-                    
-                    </div><!-- form-group 2 finish -->
+
                     
                     <div class="form-group"><!-- form-group 3 begin -->
                     
@@ -119,7 +101,7 @@
 
               move_uploaded_file($temp_name,"other_images/$p_cat_image");
               
-              $insert_p_cat = "insert into product_categories (p_cat_title,p_cat_top,p_cat_image) values ('$p_cat_title','$p_cat_top','$p_cat_image')";
+              $insert_p_cat = "insert into product_categories (p_cat_title,p_cat_top,p_cat_image) values ('$p_cat_title','yes','$p_cat_image')";
               
               $run_p_cat = mysqli_query($con,$insert_p_cat);
               

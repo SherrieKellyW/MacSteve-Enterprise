@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\includes"
   ],
+  "SelectedNode": "\\includes\\sidebar.php",
   "PreviewInSolutionExplorer": false
 }

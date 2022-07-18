@@ -31,7 +31,7 @@
         <ol class="breadcrumb"><!-- breadcrumb begin -->
             <li>
                 
-                <i class="fa fa-dashboard"></i> Dashboard / Update Manufacturer
+                <i class="fa fa-dashboard"></i> Dashboard / Update supplier
                 
             </li>
         </ol><!-- breadcrumb finish -->
@@ -44,7 +44,7 @@
             <div class="panel-heading"><!-- panel-heading begin -->
                 <h3 class="panel-title"><!-- panel-title begin -->
                 
-                    <i class="fa fa-money fa-fw"></i> Update Manufacturer
+                    <i class="fa fa-money fa-fw"></i> Update supplier
                 
                 </h3><!-- panel-title finish -->
             </div><!-- panel-heading finish -->
@@ -55,7 +55,7 @@
                     
                         <label for="" class="control-label col-md-3"><!-- control-label col-md-3 begin --> 
                         
-                        Manufacturer Name 
+                        Supplier Name 
                         
                         </label><!-- control-label col-md-3 finish --> 
                         
@@ -70,7 +70,7 @@
                     
                         <label for="" class="control-label col-md-3"><!-- control-label col-md-3 begin --> 
                         
-                            Choose As Top Manufacturer
+                            Choose As Top Supplier
                         
                         </label><!-- control-label col-md-3 finish --> 
                         
@@ -105,7 +105,7 @@
                     
                         <label for="" class="control-label col-md-3"><!-- control-label col-md-3 begin --> 
                         
-                        Manufacturer Image
+                        Supplier Image
                         
                         </label><!-- control-label col-md-3 finish --> 
                         
@@ -126,7 +126,7 @@
                         
                         <div class="col-md-6"><!-- col-md-6 begin -->
                         
-                            <input type="submit" name="update" value="Update Manufacturer" class="btn btn-primary form-control">
+                            <input type="submit" name="update" value="Update Supplier" class="btn btn-primary form-control">
                         
                         </div><!-- col-md-6 finish -->
                     
@@ -162,7 +162,7 @@
             
                 echo "<script>alert('Your manufacturer has been updated')</script>";
                 
-                echo "<script>window.open('index.php?view_manufacturers','_self')</script>";
+                echo "<script>window.open('index.php?view_suppliers','_self')</script>";
 
             }
 
@@ -176,7 +176,7 @@
             
                 echo "<script>alert('Your manufacturer has been updated')</script>";
                 
-                echo "<script>window.open('index.php?view_manufacturers','_self')</script>";
+                echo "<script>window.open('index.php?view_suppliers','_self')</script>";
 
             }
 

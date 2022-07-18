@@ -20,9 +20,9 @@
         
         if($run_delete){
             
-            echo "<script>alert('One of your manufacturer has been Deleted')</script>";
+            echo "<script>alert('One of your Supplier has been Deleted')</script>";
             
-            echo "<script>window.open('index.php?view_manufacturers','_self')</script>";
+            echo "<script>window.open('index.php?view_suppliers','_self')</script>";
             
         }
         

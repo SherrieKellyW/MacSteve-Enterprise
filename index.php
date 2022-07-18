@@ -64,7 +64,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Urembo pap! Admin Area</title>
+    <title>MacSteve Enterprise</title>
     <link rel="stylesheet" href="css/bootstrap-337.min.css">
     <link rel="stylesheet" href="font-awsome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -253,21 +253,21 @@
                         
                         include("edit_css.php");
                         
-                }   if(isset($_GET['insert_manufacturer'])){
+                }   if(isset($_GET['insert_supplier'])){
                         
-                        include("insert_manufacturer.php");
+                        include("insert_supplier.php");
                         
-                }   if(isset($_GET['view_manufacturers'])){
+                }   if(isset($_GET['view_suppliers'])){
                         
-                        include("view_manufacturers.php");
+                        include("view_suppliers.php");
                         
-                }   if(isset($_GET['delete_manufacturer'])){
+                }   if(isset($_GET['delete_supplier'])){
                         
-                        include("delete_manufacturer.php");
+                        include("delete_supplier.php");
                         
-                }   if(isset($_GET['edit_manufacturer'])){
+                }   if(isset($_GET['edit_supplier'])){
                         
-                        include("edit_manufacturer.php");
+                        include("edit_supplier.php");
                         
                 }
         

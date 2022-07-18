@@ -106,14 +106,14 @@
                                 <td> <?php echo $shipping_status; ?></td>
                                 <td> 
 
-                                    <a href="order_details.php?invoice_no=<?php echo $invoice_no; ?>" target="_blank" class="btn btn-primary btn-sm"> Order Details </a>
+                                    <a href="order_details.php?invoice_no=<?php echo $invoice_no; ?>"  class="btn btn-primary btn-sm"> Order Details </a>
                                     
 
 
                                 </td>
                                 <td>
                                     
-                                   <a href="productreceiver_details.php?invoice_no=<?php echo $invoice_no; ?>" target="_blank" class="btn btn-primary btn-sm"> Cover details </a>
+                                   <a href="productreceiver_details.php?invoice_no=<?php echo $invoice_no; ?>"  class="btn btn-primary btn-sm"> Cover details </a>
                                 </td>
 
                                 

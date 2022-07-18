@@ -121,7 +121,7 @@
             </li><!-- li finish -->
             
             <li><!-- li begin -->
-                <a href="#" data-toggle="collapse" data-target="#Supplier"><!-- a href begin -->
+                <a href="#" data-toggle="collapse" data-target="#supplier"><!-- a href begin -->
                         
                         <i class="fa fa-fw fa-star"></i> Supplier 
                         <i class="fa fa-fw fa-caret-down"></i>
@@ -130,10 +130,10 @@
                 
                 <ul id="supplier" class="collapse"><!-- collapse begin -->
                     <li><!-- li begin -->
-                        <a href="index.php?insert_manufacturer"> Insert Supplier </a>
+                        <a href="index.php?insert_supplier"> Insert Supplier </a>
                     </li><!-- li finish -->
                     <li><!-- li begin -->
-                        <a href="index.php?view_manufacturers"> View Supplier </a>
+                        <a href="index.php?view_suppliers"> View Supplier </a>
                     </li><!-- li finish -->
                 </ul><!-- collapse finish -->
                 
