@@ -1,42 +1,67 @@
-<?php 
-    
-    if(!isset($_SESSION['admin_email'])){
-        
-        echo "<script>window.open('login.php','_self')</script>";
-        
-    }else{
+
+<?php
+
+
+include("includes/db.php");
+
 
 ?>
 
-<div class="row"><!-- row 1 begin -->
-    <div class="col-lg-12"><!-- col-lg-12 begin -->
-        <ol class="breadcrumb"><!-- breadcrumb begin -->
-            <li class="active"><!-- active begin -->
-                
-                <i class="fa fa-dashboard"></i> Dashboard / View Products
-                
-            </li><!-- active finish -->
-        </ol><!-- breadcrumb finish -->
-    </div><!-- col-lg-12 finish -->
-</div><!-- row 1 finish -->
 
-<div class="row"><!-- row 2 begin -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>MacSteve Enterprise</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <!-- CSS Files -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./assets/css/now-ui-kit.css?v=1.1.0" rel="stylesheet" />
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    
+
+    <!--     inserted     -->
+    <link rel="stylesheet" href="./plugins/datatables/dataTables.bootstrap.css">
+
+    <style type="text/css">
+      tr td{
+        padding-top:-10px!important;
+        border: 1px solid #000;
+      }
+      @media print {
+          .btn-print {
+            display:none !important;
+          }
+      }
+    </style>
+    </head>
+<body>
+
+
+       <center>
+<div class="section section-basic">
+                <div class="container">
+
+<div class="row main"><!-- row 2 begin -->
     <div class="col-lg-12"><!-- col-lg-12 begin -->
         <div class="panel panel-default"><!-- panel panel-default begin -->
             <div class="panel-heading"><!-- panel-heading begin -->
             <div class="row">
                 <div>
                          <h3 class="panel-title"><!-- panel-title begin -->
-                      <i class="fa fa-tags"></i>  View Products
+                      <i class="fa fa-tags"></i>  Stock Report
                     </h3><!-- panel-title finish --> 
                     </div>
-                    <div>
-                    <a href="stock_details.php">
-                                     
-                                     <i class="fa fa-notes"></i> Generate Stock Report
-                                 
-                                  </a> 
-                    </div>
+                   
                    </div>
                   
                 
@@ -56,8 +81,7 @@
                                 <th> Product quantity </th>
                                 <th> Product Keywords: </th>
                                 <th> Product Date: </th>
-                                <th> Product Delete: </th>
-                                <th> Product Edit: </th>
+                               
                             </tr><!-- tr finish -->
                         </thead><!-- thead finish -->
                         
@@ -129,24 +153,8 @@
 
                                 <td> <?php echo $pro_keywords; ?> </td>
                                 <td> <?php echo $pro_date ?> </td>
-                                <td> 
-                                     
-                                     <a href="index.php?delete_product=<?php echo $pro_id; ?>">
-                                     
-                                        <i class="fa fa-trash-o"></i> Delete
-                                    
-                                     </a> 
-                                     
-                                </td>
-                                <td> 
-                                     
-                                     <a href="index.php?edit_product=<?php echo $pro_id; ?>">
-                                     
-                                        <i class="fa fa-pencil"></i> Edit
-                                    
-                                     </a> 
-                                    
-                                </td>
+                              
+                             
                             </tr><!-- tr finish -->
                             
                             <?php } ?>
@@ -161,4 +169,96 @@
     </div><!-- col-lg-12 finish -->
 </div><!-- row 2 finish -->
 
-<?php } ?>
+                                
+
+
+        
+     <button type="button" class="btn btn-warning btn-round" onclick = "window.print()"><span class="now-ui-icons ui-1_check"></span> Print</button> 
+     <a href="index.php?view_products" ><button type="button" class="btn btn-success btn-round"><span class="now-ui-icons ui-1_check"></span> Back</button></a>
+     </div>
+         </div>
+    </center>
+
+                               </div>
+
+
+
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+<br><br><br><br>
+<footer class="footer" data-background-color="black">
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="" target="_blank">
+                                MacSteve
+                            </a>
+                        </li>
+                        <li>
+                           Enterprise
+                        </li>
+                    </ul>
+                </nav>
+                <div class="copyright">
+                    &copy;
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script> MacSteve
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    </body>
+<script src="./assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
+<script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+<script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+<!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+<script src="./assets/js/plugins/bootstrap-switch.js"></script>
+<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+<script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+<!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+<script src="./assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
+<!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
+<script src="./assets/js/now-ui-kit.js?v=1.1.0" type="text/javascript"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        // the body of this function is in assets/js/now-ui-kit.js
+        nowuiKit.initSliders();
+    });
+
+    function scrollToDownload() {
+
+        if ($('.section-download').length != 0) {
+            $("html, body").animate({
+                scrollTop: $('.section-download').offset().top
+            }, 1000);
+        }
+    }
+</script>
+
+
+   <!---  inserted  -->
+    <!-- SlimScroll -->
+    <script src="./plugins/slimScroll/jquery.slimscroll.min.js"></script>
+    <!-- FastClick -->
+    <script src="./plugins/fastclick/fastclick.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="./plugins/app.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="./plugins/demo.js"></script>
+    <script src="./plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="./plugins/datatables/dataTables.bootstrap.min.js"></script>
+    <script>
+      $(function () {
+        $("#example1").DataTable({
+        });
+      });
+    </script>
+     <!--  inserted  -->
+
+</html>

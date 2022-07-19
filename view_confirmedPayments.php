@@ -64,7 +64,7 @@
 
                                 $payment_confirmed = "payment confirmed";
                             
-                                $get_payments = "select * from payments where payment_confirmation = '$payment_confirmed' and shipping_status = 'not shipped'";
+                                $get_payments = "select * from payments where payment_confirmation = '$payment_confirmed'";
                                 
                                 $run_payments = mysqli_query($con,$get_payments);
           

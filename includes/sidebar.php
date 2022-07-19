@@ -262,9 +262,9 @@
                     <li><!-- li begin -->
                         <a href="index.php?shipped_orders">View order Reports</a>
                     </li><!-- li finish -->
-                    <li><!-- li begin -->
-                        <a href="index.php?unshipped_orders"> View Stock Reports</a>
-                    </li><!-- li finish -->
+                    <!-- li begin -->
+                        <!-- <a href="index.php?unshipped_orders"> View Stock Reports</a> -->
+                    <!-- li finish -->
                 </ul><!-- collapse finish -->
                 
             </li><!-- li finish -->
