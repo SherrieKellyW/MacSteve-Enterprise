@@ -24,11 +24,22 @@
     <div class="col-lg-12"><!-- col-lg-12 begin -->
         <div class="panel panel-default"><!-- panel panel-default begin -->
             <div class="panel-heading"><!-- panel-heading begin -->
-               <h3 class="panel-title"><!-- panel-title begin -->
-               
-                   <i class="fa fa-tags"></i>  View Products
+            <div class="row">
+                <div>
+                         <h3 class="panel-title"><!-- panel-title begin -->
+                      <i class="fa fa-tags"></i>  View Products
+                    </h3><!-- panel-title finish --> 
+                    </div>
+                    <div>
+                    <a href="stock_details.php">
+                                     
+                                     <i class="fa fa-notes"></i> Generate Stock Report
+                                 
+                                  </a> 
+                    </div>
+                   </div>
+                  
                 
-               </h3><!-- panel-title finish --> 
             </div><!-- panel-heading finish -->
             
             <div class="panel-body"><!-- panel-body begin -->
