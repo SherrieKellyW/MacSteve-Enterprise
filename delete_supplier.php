@@ -10,9 +10,9 @@
 
 <?php 
 
-    if(isset($_GET['delete_manufacturer'])){
+    if(isset($_GET['delete_supplier'])){
         
-        $delete_id = $_GET['delete_manufacturer'];
+        $delete_id = $_GET['delete_supplier'];
         
         $delete_manufacturer = "delete from manufacturers where manufacturer_id='$delete_id'";
         

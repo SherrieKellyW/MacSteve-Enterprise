@@ -111,7 +111,7 @@
                 
                 <ul id="products" class="collapse"><!-- collapse begin -->
                     <li><!-- li begin -->
-                        <a href="index.php?insert_product"> Insert Product </a>
+                        <a href="index.php?insert_product"> insert Product </a>
                     </li><!-- li finish -->
                     <li><!-- li begin -->
                         <a href="index.php?view_products"> View Products </a>
@@ -149,7 +149,7 @@
                 
                 <ul id="p_cat" class="collapse"><!-- collapse begin -->
                     <li><!-- li begin -->
-                        <a href="index.php?insert_p_cat"> Insert Product Category </a>
+                        <a href="index.php?insert_p_cat"> add Product Category </a>
                     </li><!-- li finish -->
                     <li><!-- li begin -->
                         <a href="index.php?view_p_cats"> View Products Categories </a>
@@ -253,17 +253,17 @@
             <li><!-- li begin -->
                 <a href="#" data-toggle="collapse" data-target="#shipping"><!-- a href begin -->
                         
-                        <i class="fa fa-fw fa-ship"></i> Shipping
+                        <i class="fa fa-fw fa-ship"></i> Reports
                         <i class="fa fa-fw fa-caret-down"></i>
                         
                 </a><!-- a href finish -->
                 
                 <ul id="shipping" class="collapse"><!-- collapse begin -->
                     <li><!-- li begin -->
-                        <a href="index.php?shipped_orders">View shipped orders</a>
+                        <a href="index.php?shipped_orders">View order Reports</a>
                     </li><!-- li finish -->
                     <li><!-- li begin -->
-                        <a href="index.php?unshipped_orders"> not shipped orders</a>
+                        <a href="index.php?unshipped_orders"> View Stock Reports</a>
                     </li><!-- li finish -->
                 </ul><!-- collapse finish -->
                 

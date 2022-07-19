@@ -69,13 +69,13 @@
                    
                    <div class="form-group"><!-- form-group Begin -->
                        
-                      <label class="col-md-3 control-label"> Manufacturer </label> 
+                      <label class="col-md-3 control-label"> supplier</label> 
                       
                       <div class="col-md-6"><!-- col-md-6 Begin -->
                           
-                          <select name="manufacturer" class="form-control"><!-- form-control Begin -->
+                          <select name="Supplier" class="form-control"><!-- form-control Begin -->
                               
-                              <option selected disabled> Select a Manufacturer </option>
+                              <option selected disabled> Select Supplier </option>
                               
                               <?php 
                               
@@ -242,7 +242,7 @@
                       
                       <div class="col-md-6"><!-- col-md-6 Begin -->
                           
-                          <input name="submit" value="Insert Product" type="submit" class="btn btn-primary form-control">
+                          <input name="submit" value="ADD  Product" type="submit" class="btn btn-primary form-control">
                           
                       </div><!-- col-md-6 Finish -->
                        

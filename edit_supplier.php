@@ -10,9 +10,9 @@
 
 <?php  
 
-        if(isset($_GET['edit_manufacturer'])){
+        if(isset($_GET['edit_supplier'])){
 
-            $edit_manufacturer = $_GET['edit_manufacturer'];
+            $edit_manufacturer = $_GET['edit_supplier'];
             $get_manufacturer = "select * from manufacturers where manufacturer_id='$edit_manufacturer'";
             $run_manufacturer = mysqli_query($con,$get_manufacturer);
             $row_manufacturer = mysqli_fetch_array($run_manufacturer);
@@ -160,7 +160,7 @@
 
             if($run_manufacturer){
             
-                echo "<script>alert('Your manufacturer has been updated')</script>";
+                echo "<script>alert('Your supplier has been updated')</script>";
                 
                 echo "<script>window.open('index.php?view_suppliers','_self')</script>";
 
@@ -174,7 +174,7 @@
 
             if($run_manufacturer){
             
-                echo "<script>alert('Your manufacturer has been updated')</script>";
+                echo "<script>alert('Your supplier has been updated')</script>";
                 
                 echo "<script>window.open('index.php?view_suppliers','_self')</script>";
 
