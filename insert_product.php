@@ -278,6 +278,7 @@ if(isset($_POST['submit'])){
     $product_sale = $_POST['product_sale'];
     $product_keywords = $_POST['product_keywords'];
     $product_desc = $_POST['product_desc'];
+    $product_expiry_date = $_POST['expiry_date'];
     
     $product_img1 = $_FILES['product_img1']['name'];
 
@@ -288,7 +289,7 @@ if(isset($_POST['submit'])){
     move_uploaded_file($temp_name1,"product_images/$product_img1");
 
     
-    $insert_product = "insert into products (p_cat_id,cat_id,manufacturer_id,date,product_title,product_img1,product_price,product_quantity,product_label,product_sale,product_keywords,product_desc) values ('$product_cat','$cat','$manufacturer_id',NOW(),'$product_title','$product_img1','$product_price','$product_quantity','$product_label','$product_sale','$product_keywords','$product_desc')";
+    $insert_product = "insert into products (p_cat_id,cat_id,manufacturer_id,date,product_title,product_img1,product_price,initial_amount,product_quantity,product_label,product_sale,product_keywords,product_desc) values ('$product_cat','$cat','$manufacturer_id',NOW(),'$product_title','$product_img1','$product_price','$product_quantity','$product_quantity','$product_label','$product_sale','$product_keywords','$product_desc')";
     
     $run_product = mysqli_query($con,$insert_product);
     

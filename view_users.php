@@ -82,7 +82,7 @@
                             <tr><!-- tr begin -->
                                 <td> <?php echo $i; ?> </td>
                                 <td> <?php echo $user_name; ?> </td>
-                                <td> <img src="../admin_area/admin_images/<?php echo $user_img; ?>" width="60" height="60"></td>
+                                <td> <img src="./admin_images/<?php echo $user_img; ?>" width="60" height="60"></td>
                                 <td> <?php echo $user_email; ?> </td>
                                 <td> <?php echo $user_country; ?></td>
                                 <td> <?php echo $user_job; ?> </td>

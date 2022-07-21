@@ -55,7 +55,7 @@
                                 <th> Product Sold: </th>
                                 <th> Product quantity </th>
                                 <th> Product Keywords: </th>
-                                <th> Product Date: </th>
+                                <th> Date Added: </th>
                                 <th> Product Delete: </th>
                                 <th> Product Edit: </th>
                             </tr><!-- tr finish -->
@@ -82,10 +82,12 @@
                                     $pro_price = $row_pro['product_price'];
   
                                     $product_quantity = $row_pro['product_quantity'];
+                                    $initial_amount = $row_pro['initial_amount'];
   
                                     $pro_keywords = $row_pro['product_keywords'];
                                     
                                     $pro_date = $row_pro['date'];
+                                  
                                     
                                     $i++;
                             
@@ -98,14 +100,8 @@
                                 <td> Ksh <?php echo $pro_price; ?> </td>
 
                                 <td> <?php 
-                                    
-                                        $get_sold = "select * from pending_orders where product_id='$pro_id'";
-                                    
-                                        $run_sold = mysqli_query($con,$get_sold);
-                                    
-                                        $count = mysqli_num_rows($run_sold);
-                                    
-                                        echo $count;
+                                    echo 
+                                    $initial_amount  -  $product_quantity
                                     
                                      ?> 
                                 </td>

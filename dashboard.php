@@ -211,7 +211,6 @@
                                 <th> Invoice No: </th>
                                 <th> Product ID: </th>
                                 <th> Product Qty: </th>
-                                <th> Shipping County: </th>
                                 <th> Status: </th>
                             
                             </tr><!-- th finish -->
@@ -239,9 +238,7 @@
                                     $product_id = $row_order['product_id'];
                                     
                                     $qty = $row_order['qty'];
-                                    
-                                    $shipping_county = $row_order['county'];
-                                    
+                                                                                                     
                                     $order_status = $row_order['order_status'];
                                     
                                     $i++;
@@ -270,8 +267,7 @@
                                 </td>
                                 <td> <?php echo $invoice_no; ?> </td>
                                 <td> <?php echo $product_id; ?> </td>
-                                <td> <?php echo $qty; ?> </td>
-                                <td> <?php echo $shipping_county; ?> </td>
+                                <td> <?php echo $qty; ?> </td>                         
                                 <td>
                                     
                                     <?php 

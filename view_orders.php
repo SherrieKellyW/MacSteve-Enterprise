@@ -43,7 +43,6 @@
                                 <th> Invoice No: </th>
                                 <th> Product Name: </th>
                                 <th> Product Qty: </th>
-                                <th> Shipping_county: </th>
                                 <th> Order Date: </th>
                                 <th> Total Amount: </th>
                                 <th> Status: </th>
@@ -127,8 +126,7 @@
                                 <td> <?php echo $customer_phoneNo; ?></td>
                                 <td> <?php echo $invoice_no; ?></td>
                                 <td> <?php echo $product_title; ?> </td>
-                                <td> <?php echo $qty; ?></td>
-                                <td> <?php echo $Shipping_county; ?> </td>
+                                <td> <?php echo $qty; ?></td>                          
                                 <td> <?php echo $order_date; ?> </td>
                                 <td> <?php echo $order_amount; ?> </td>
                                 <td>
