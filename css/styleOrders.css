@@ -1,0 +1,139 @@
+
+
+/* advantages Styles */
+
+#advantages{
+    text-align: center;
+}
+.box{
+    background: #ffffff;
+    margin: 0 0 30px;
+    border: solid 1px #e6e6e6;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, .3);
+}
+#advantages .box .icon{
+    position: absolute;
+    font-size: 120px;
+    width: 100%;
+    text-align: center;
+    top: -20px;
+    left: 0px;
+    height: 100%;
+    float: left;
+    color: #dadada;
+    box-sizing: border-box;
+    z-index: 1;
+}
+#advantages .box h3{
+    position: relative;
+    margin: 0 0 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    z-index: 2;
+}
+#advantages .box h3 a{
+    color: #4fbfa8;
+}
+#advantages .box h3 a:hover{
+    text-decoration: none;
+}
+#advantages .box p{
+    position: relative;
+    z-index: 2;
+    color: #555555;
+}
+
+
+/*  Shop Products Tyles  */
+
+@media(max-width: 768px){
+    .center-responsive{
+        width: 70%;
+        margin: 0px auto;
+    }
+}
+@media(max-width: 550px){
+    .center-responsive{
+        width: 95%;
+        margin: 0px auto;
+    }
+}
+
+/*  Details.php Styles */
+
+
+#content #productMain{
+    margin-bottom: 30px;
+}
+#content #productMain .price{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 30px;
+}
+#content #mainImage{
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .7);
+}
+#content #thumbs a{
+    display: block;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .5);
+    border: 2px solid transparent;
+}
+#content .headline{
+    height: 305px;
+}
+
+/*  Cart.php Styles  */
+
+#content #cart .table tbody tr td img{
+    width: 50px;
+}
+#content #cart .table tbody tr td input{
+    width: 40px;
+    text-align: right;
+}
+#content #cart .table tbody tr td{
+    vertical-align: middle;
+}
+#content #cart .table tfoot{
+    font-size: 18px;
+}
+.box .box-footer{
+    background-color: #f7f7f7;
+    margin: 30px -20px 20px;
+    padding: 20px;
+    border-top: 1px solid #eeeeee;
+}
+.box .box-footer:before,
+.box .box-footer:after{
+    content: "";
+    display: table;
+}
+.box .box-footer:after{
+    clear: both;
+}
+.box .box-header{
+    background-color: #f7f7f7;
+    margin: -20px -20px 20px;
+    padding: 20px;
+    border-top: 1px solid #eeeeee;
+}
+#content #order-summary table{
+    margin-top: 20px;
+}
+#content #order-summary table td{
+    color: #999999;
+}
+#content #order-summary table tr.total td,
+#content #order-summary table tr.total th{
+    font-size: 18px;
+    color: #555555;
+    font-weight: 700;
+}
+
+.img-responsive{
+    max-height: 252px;
+    width: 100%;
+}
