@@ -203,6 +203,25 @@
             </li><!-- li finish -->
 
             <li><!-- li begin -->
+                <a href="#" data-toggle="collapse" data-target="#customers"><!-- a href begin -->
+                        
+                        <i class="fa fa-fw fa-tag"></i> Customers
+                        <i class="fa fa-fw fa-caret-down"></i>
+                        
+                </a><!-- a href finish -->
+                
+                <ul id="customers" class="collapse"><!-- collapse begin -->
+                    <li><!-- li begin -->
+                        <a href="index.php?insert_customer"> insert Customer </a>
+                    </li><!-- li finish -->
+                    <li><!-- li begin -->
+                        <a href="index.php?view_customers"> View Customer</a>
+                    </li><!-- li finish -->
+                </ul><!-- collapse finish -->
+                
+            </li><!-- li finish -->
+
+            <li><!-- li begin -->
                 <a href="index.php?view_logs"><!-- a href begin -->
                     <i class="fa fa-fw fa-refresh"></i> View logs
                 </a><!-- a href finish -->

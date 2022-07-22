@@ -168,7 +168,11 @@
                         
                         include("view_customers.php");
                         
-                }   if(isset($_GET['delete_customer'])){
+                }  if(isset($_GET['insert_customer'])){
+                        
+                        include("insert_customer.php");
+                        
+                } if(isset($_GET['delete_customer'])){
                         
                         include("delete_customer.php");
                         
