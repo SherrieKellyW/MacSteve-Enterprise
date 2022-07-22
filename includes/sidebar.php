@@ -196,16 +196,11 @@
                 
             </li><!-- li finish -->
             
-            <li><!-- li begin -->
-                <a href="index.php?view_customers"><!-- a href begin -->
-                    <i class="fa fa-fw fa-users"></i> View Customers
-                </a><!-- a href finish -->
-            </li><!-- li finish -->
 
             <li><!-- li begin -->
                 <a href="#" data-toggle="collapse" data-target="#customers"><!-- a href begin -->
                         
-                        <i class="fa fa-fw fa-tag"></i> Customers
+                        <i class="fa fa-fw fa-users"></i> Customers
                         <i class="fa fa-fw fa-caret-down"></i>
                         
                 </a><!-- a href finish -->

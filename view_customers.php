@@ -84,7 +84,7 @@
                             <tr><!-- tr begin -->
                                 <td> <?php echo $i; ?> </td>
                                 <td> <?php echo $c_name; ?> </td>
-                                <td> <img src="../customer/customer_images/<?php echo $c_img; ?>" width="60" height="60"></td>
+                                <td> <img src="./admin_images/<?php echo $c_img; ?>" width="60" height="60"></td>
                                 <td> <?php echo $c_email; ?> </td>
                                 <td> <?php echo $c_country; ?></td>
                                 <td> <?php echo $c_city; ?> </td>
