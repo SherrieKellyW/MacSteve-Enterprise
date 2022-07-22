@@ -45,7 +45,7 @@
                            
                        </center><!-- center Finish -->
                        
-                       <form action="" method="post" enctype="multipart/form-data"><!-- form Begin -->
+                       <form method="post" enctype="multipart/form-data"><!-- form Begin -->
                            
                            <div class="form-group"><!-- form-group Begin -->
                                
@@ -109,7 +109,7 @@
                                
                                <button type="submit" name="register" class="btn btn-primary">
                                
-                               <i class="fa fa-user-md"></i> Register
+                               <i class="fa fa-user-md"></i> Add customer
                                
                                </button>
                                
