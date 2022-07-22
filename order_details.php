@@ -107,15 +107,15 @@ if(isset($_GET['invoice_no'])){
 
             $row_productreceiver = mysqli_fetch_array($run_productreceiver);
 
-            $receiver_number = $row_productreceiver['receiver_number'];
+            $receiver_number = 'null';
 
-            $receiver_firstname = $row_productreceiver['receiver_firstname'];
+            $receiver_firstname = 'null';
 
-            $receiver_secondname = $row_productreceiver['receiver_secondname'];
+            $receiver_secondname = 'null';
 
-            $receiver_thirdname = $row_productreceiver['receiver_thirdname'];
+            $receiver_thirdname = 'null';
 
-            $receiver_idnumber = $row_productreceiver['receiver_idnumber'];
+            $receiver_idnumber = 'null';
      
 
 
@@ -164,7 +164,7 @@ if(isset($_GET['invoice_no'])){
             <tr><!--  tr Begin  -->
                 
                 <th> BILL TO: </th>
-                <th> SHIPPED TO: </th>
+                
                 <th> INVOICE: </th>
                  
 
@@ -174,9 +174,6 @@ if(isset($_GET['invoice_no'])){
                 <td>Name: <?php echo $customer_name;?> 
                 <h3></h3>Contact: <?php echo $customer_contact; ?>
                 <h3></h3>County: <?php echo $customer_city; ?></td>
-                <td>Name: <?php echo $receiver_firstname;?> 
-                <h3></h3>Contact: <?php echo $receiver_number; ?>
-                <h3></h3>County: <?php echo $shipping_county ; ?></td>
                 <td>Invoice No: <?php echo $invoice_no;?> 
                 <h3></h3>Order id: <?php echo $order_id; ?>
                 <h3></h3>Order date: <?php echo $order_date; ?></td>
@@ -245,7 +242,7 @@ if(isset($_GET['invoice_no'])){
 
         
      <button type="button" class="btn btn-warning btn-round" onclick = "window.print()"><span class="now-ui-icons ui-1_check"></span> Print</button> 
-     <a href="index.php?view_confirmedPayments" ><button type="button" class="btn btn-success btn-round"><span class="now-ui-icons ui-1_check"></span> Back to Homepage</button></a>
+     <a href="index.php?view_orders" ><button type="button" class="btn btn-success btn-round"><span class="now-ui-icons ui-1_check"></span> Back</button></a>
     
     </center>
 

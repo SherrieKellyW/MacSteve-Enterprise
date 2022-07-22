@@ -242,28 +242,7 @@
                 
             </li><!-- li finish -->
 
-            <li><!-- li begin -->
-                <a href="#" data-toggle="collapse" data-target="#payments"><!-- a href begin -->
-                        
-                        <i class="fa fa-fw fa-money"></i> Payments
-                        <i class="fa fa-fw fa-caret-down"></i>
-                        
-                </a><!-- a href finish -->
-                
-                <ul id="payments" class="collapse"><!-- collapse begin -->
-                    <li><!-- li begin -->
-                        <a href="index.php?view_payments"> Unconfirmed Payments </a>
-                    </li><!-- li finish -->
-                    <li><!-- li begin -->
-                        <a href="index.php?view_confirmedPayments"> View Confirmed Payments </a>
-                    </li><!-- li finish -->
-                     <li><!-- li begin -->
-                        <a href="index.php?confirm_payment"> Confirm New payment  </a>
-                    </li><!-- li finish -->
-                </ul><!-- collapse finish -->
-                
-            </li><!-- li finish -->
-
+        
             <li><!-- li begin -->
                 <a href="#" data-toggle="collapse" data-target="#shipping"><!-- a href begin -->
                         
@@ -274,7 +253,7 @@
                 
                 <ul id="shipping" class="collapse"><!-- collapse begin -->
                     <li><!-- li begin -->
-                        <a href="index.php?shipped_orders">View order Reports</a>
+                        <a href="index.php?view_orders">View order Reports</a>
                     </li><!-- li finish -->
                     <!-- li begin -->
                         <!-- <a href="index.php?unshipped_orders"> View Stock Reports</a> -->

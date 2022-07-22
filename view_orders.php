@@ -45,7 +45,6 @@
                                 <th> Product Qty: </th>
                                 <th> Order Date: </th>
                                 <th> Total Amount: </th>
-                                <th> Status: </th>
                                 <!--<th> Delete: </th>--> <!--currently disabled-->
                             </tr><!-- tr finish -->
                         </thead><!-- thead finish -->
@@ -129,23 +128,13 @@
                                 <td> <?php echo $qty; ?></td>                          
                                 <td> <?php echo $order_date; ?> </td>
                                 <td> <?php echo $order_amount; ?> </td>
-                                <td>
-                                    
-                                    <?php 
-                                    
-                                        if($order_status=='pending'){
-                                            
-                                            echo $order_status='pending';
-                                            
-                                        }else{
-                                            
-                                            echo $order_status='Complete';
-                                            
-                                        }
-                                    
-                                    ?>
-                                    
-                                </td>
+                                <td> 
+
+<a href="order_details.php?invoice_no=<?php echo $invoice_no; ?>"  class="btn btn-primary btn-sm"> Order Details </a>
+
+
+
+</td>
                               
                             </tr><!-- tr finish -->
                             
